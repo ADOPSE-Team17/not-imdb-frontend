@@ -1,13 +1,13 @@
 <template>
-  <h2 class="pa-16">Welcome</h2>
+  <h3 class="pa-16">About page</h3>
 </template>
 
 <script>
-
-
 export default {
-  components: {
-   
-  }
+
 }
 </script>
+
+<style>
+
+</style>

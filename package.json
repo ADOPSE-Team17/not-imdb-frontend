@@ -12,10 +12,12 @@
   "dependencies": {
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "storybook": "^6.2.5"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "@nuxtjs/storybook": "^4.0.1",
-    "postcss": "^8.2.9"
+    "postcss": "^8.2.9",
+    "storybook": "^6.2.5",
+    "@nuxtjs/vuetify": "^1.11.3"
   }
 }
