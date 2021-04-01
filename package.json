@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
   "name": "movie-info-vuetify",
-=======
   "name": "not-imdb-frontend",
->>>>>>> e1ee70de28a6f46f0852eac4562c923a0961319e
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -13,7 +10,6 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^0.21.1",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3"
@@ -21,10 +17,4 @@
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.3"
   }
-=======
-    "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
-  },
-  "devDependencies": {}
->>>>>>> e1ee70de28a6f46f0852eac4562c923a0961319e
 }
