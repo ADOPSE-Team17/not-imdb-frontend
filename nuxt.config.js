@@ -1,17 +1,15 @@
-<<<<<<< HEAD
-import colors from 'vuetify/es5/util/colors'
+import colors from 'vuetify/lib/util/colors'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    titleTemplate: '%s - movie-info-vuetify',
-    title: 'movie-info-vuetify',
-=======
-export default {
+//   head: {
+//     titleTemplate: '%s - movie-info-vuetify',
+//     title: 'movie-info-vuetify',
+//   },
+// export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'not-imdb-frontend',
->>>>>>> e1ee70de28a6f46f0852eac4562c923a0961319e
     htmlAttrs: {
       lang: 'en'
     },
@@ -38,18 +36,14 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-<<<<<<< HEAD
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
-=======
->>>>>>> e1ee70de28a6f46f0852eac4562c923a0961319e
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
 
-<<<<<<< HEAD
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
@@ -69,9 +63,8 @@ export default {
     }
   },
 
-=======
->>>>>>> e1ee70de28a6f46f0852eac4562c923a0961319e
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
 }
+//}
