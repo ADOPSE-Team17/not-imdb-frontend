@@ -1,9 +1,8 @@
 <<<<<<< HEAD
 # movie-info-vuetify
-=======
-# not-imdb-frontend
->>>>>>> e1ee70de28a6f46f0852eac4562c923a0961319e
-
+  -updated the app using vuetify 
+  
+  
 ## Build Setup
 
 ```bash
