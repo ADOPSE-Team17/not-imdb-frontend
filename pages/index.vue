@@ -1,18 +1,4 @@
 <template>
-<<<<<<< HEAD
-  <h2 class="pa-16">Welcome</h2>
-</template>
-
-<script>
-
-
-export default {
-  components: {
-   
-  }
-}
-</script>
-=======
   <div class="container">
     <div>
       <Logo />
@@ -85,4 +71,3 @@ export default {}
   padding-top: 15px;
 }
 </style>
->>>>>>> e1ee70de28a6f46f0852eac4562c923a0961319e
