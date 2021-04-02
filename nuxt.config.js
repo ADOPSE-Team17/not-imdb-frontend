@@ -1,15 +1,10 @@
-import colors from 'vuetify/lib/util/colors'
+import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-//   head: {
-//     titleTemplate: '%s - movie-info-vuetify',
-//     title: 'movie-info-vuetify',
-//   },
-// export default {
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'not-imdb-frontend',
+    titleTemplate: '%s - movie-info-vuetify',
+    title: 'movie-info-vuetify',
     htmlAttrs: {
       lang: 'en'
     },
