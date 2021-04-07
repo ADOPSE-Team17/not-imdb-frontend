@@ -76,16 +76,20 @@ export default {
     },
     methods: {
         addToWatchlist(){
-            alert('add me to watchlist')
+            this.$emit('addToWatchlist')
+            //alert('add me to watchlist')
         },
         addRating(){
-            alert('Let me rate this movie')
+            this.$emit('addRating')
+            //alert('Let me rate this movie')
         },
         showInfo(){
-            alert('show more information!')
+            this.$emit('showInfo')
+            //alert('show more information!')
         },
         openMovie(){
-            alert('Show me this Movie!!!!!')
+            this.$emit('openMovie')
+            //alert('Show me this Movie!!!!!')
         }
     }
 }
