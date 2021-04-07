@@ -1,44 +1,17 @@
 <template>
-  <v-app dark>
-    <AppBar/>
-    <v-main>
-      <v-container>
-        <nuxt />
-      </v-container>
-    </v-main>
-    <v-footer
-      :absolute="!fixed"
-      app
-    >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
-  </v-app>
+  <div class="container">
+        <AppBar/>
+        <!-- The nuxt element is where the whole app takes place -->
+        <Nuxt />
+  </div>
 </template>
 
 <script>
+import AppBar from '@/components/AppBar'
 export default {
-  data () {
-    return {
-      clipped: false,
-      drawer: false,
-      fixed: false,
-      items: [
-        {
-          icon: 'mdi-apps',
-          title: 'Welcome',
-          to: '/'
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
-        }
-      ],
-      miniVariant: false,
-      right: true,
-      rightDrawer: false,
-      title: 'Vuetify.js'
-    }
-  }
+  components: {
+    AppBar,
+  },
+  
 }
 </script>
