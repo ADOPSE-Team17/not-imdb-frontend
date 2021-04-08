@@ -16,8 +16,7 @@
   },
   "devDependencies": {
     "@nuxtjs/storybook": "^4.0.1",
-    "postcss": "^8.2.9",
-    "storybook": "^6.2.5",
+    "postcss": "^7.0.32",
     "@nuxtjs/vuetify": "^1.11.3"
   }
 }
