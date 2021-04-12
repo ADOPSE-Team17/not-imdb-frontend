@@ -31,7 +31,7 @@
         <v-row>
             <v-col>
                 <v-btn 
-                    class="mx-2"
+                    class="mx-2 amber lighten-2"
                     fab
                     small
                     color="primary"
@@ -40,7 +40,7 @@
             </v-col>
             <v-col>
                 <v-btn 
-                    class="mx-2"
+                    class="mx-2 amber lighten-2"
                     fab
                     small
                     color="primary" 
@@ -49,7 +49,7 @@
             </v-col>
             <v-col>
                 <v-btn 
-                    class="mx-2"
+                    class="mx-2 amber lighten-2"
                     fab
                     small
                     color="primary"

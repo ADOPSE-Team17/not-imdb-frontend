@@ -1,17 +1,61 @@
 <template>
-  <div class="container">
-        <AppBar/>
+  <v-app
+    style="color:#ffee07;"
+    >
+        <v-app-bar
+        fixed
+        app
+        class="amber lighten-2"
+      >
+      <div class="ml-16">
+        <Title/>
+      </div>
+      <v-spacer />
+      <div>
+        <Avatar
+          v-show="loggedIn"
+        />
+      </div>
+      <v-spacer/>
+        <LoginButton
+          v-show="!loggedIn"
+        />
+        
+        <RegisterButton
+          v-show="!loggedIn"
+        />
+    </v-app-bar>
         <!-- The nuxt element is where the whole app takes place -->
-        <Nuxt />
-  </div>
+        <v-main>
+          <v-container>
+          <Nuxt />
+          </v-container>
+        </v-main>
+        <v-footer
+      app
+    >
+      <span>&copy; {{ new Date().getFullYear() }}</span>
+    </v-footer>
+  </v-app>
 </template>
 
 <script>
-import AppBar from '@/components/AppBar'
+import Title from '@/components/Title'
+import Avatar from '@/components/Avatar'
+import LoginButton from '@/components/LoginButton'
+import RegisterButton from '@/components/RegisterButton'
 export default {
   components: {
-    AppBar,
+    Title,
+    Avatar,
+    LoginButton,
+    RegisterButton
   },
+  data(){
+    return {
+      loggedIn:false
+    }
+  }
   
 }
 </script>

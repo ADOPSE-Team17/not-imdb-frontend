@@ -1,29 +1,38 @@
 <template>
-  <div class="container">
-    <searchBar/>
+ <div>
+   <v-row class="pa-8">
+      <SearchMovies class="mx-auto"/>
+    </v-row>
+    <v-row class="pa-8">
+      <h2>|Headline 1</h2>
       <CarouselList/>
+    </v-row>
+    <v-row class="pa-8">
+      <h2>|Headline 1</h2>
       <CarouselList/>
+    </v-row>
+    <v-row class="pa-8">
+      <h2>|Headline 1</h2>
       <CarouselList/>
-    <v-footer
-    app
-    >
-      <span>&copy; {{ new Date().getFullYear() }}</span>
-    </v-footer>
-  </div>
+    </v-row>
+ </div>
 </template>
 
 <script>
 import CarouselList from '@/components/CarouselList'
-import searchBar from '@/components/searchBar'
+import SearchMovies from '@/components/SearchMovies'
 
 export default {
   components: {
     CarouselList,
-    searchBar
+    SearchMovies
   }
 }
 </script>
 
 <style>
-
+h2{
+  color: #fff;
+  
+}
 </style>

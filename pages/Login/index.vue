@@ -1,15 +1,16 @@
 <template>
   <div class="container">
-    <Login/>
+    <LoginCard/>
   </div>
 </template>
 
 <script>
-import Login from '@/components/Login.vue'
+import LoginCard from '@/components/LoginCard.vue'
+
 
 export default{
     components: {
-        Login    
+        LoginCard    
     }
 }
 

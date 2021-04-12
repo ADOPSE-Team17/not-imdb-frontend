@@ -3,7 +3,7 @@
         class="mx-auto my-12"
         max-width="500"
       >
-        <v-card-title>Login!</v-card-title>
+        <v-card-title>Login</v-card-title>
         <v-card-text>
             <v-form>
                 <v-row
