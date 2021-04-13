@@ -66,7 +66,7 @@ export default {
                 {
                     icon: 'mdi-account-circle',
                     title: 'Profile',
-                    to: '/'
+                    to: '/Admin/EditProfile'
                 },
                 {
                     icon: 'mdi-video-vintage',

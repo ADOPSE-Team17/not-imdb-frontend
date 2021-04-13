@@ -1,16 +1,18 @@
 <template>
   <div>
     <AppBarAdmin/>
-    <h3>Profile Edit</h3>
+    <ProfileEdit/>
   </div>
 </template>
 
 <script>
 import AppBarAdmin from '@/components/AppBarAdmin'
+import ProfileEdit from '@/components/ProfileEdit'
 
 export default {
   components: {
-    AppBarAdmin
+    AppBarAdmin,
+    ProfileEdit,
   }
 }
 </script>
