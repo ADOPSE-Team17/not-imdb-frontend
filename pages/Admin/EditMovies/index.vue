@@ -1,23 +1,36 @@
 <template>
   <div>
     <AppBarAdmin/>
-    <v-row class="pa-8">
-      <SearchMoviesAdmin/>
-    </v-row>
-      <MovieEdit/>
+      <div class="pa-16">
+      <SearchAdmin :placeholder="this.placeholder"/>
+      </div>
+      <div class="pa-8">
+        <MovieEdit/>
+      </div>
+      <div class="pa-8">
+        <MovieEdit/>
+      </div>
+      <div class="pa-8">
+        <MovieEdit/>
+      </div>
   </div>
 </template>
 
 <script>
 import AppBarAdmin from '@/components/AppBarAdmin'
-import SearchMoviesAdmin from '@/components/SearchMoviesAdmin'
+import SearchAdmin from '@/components/SearchAdmin'
 import MovieEdit from '@/components/MovieEdit'
 
 export default {
   components: {
     AppBarAdmin,
     MovieEdit,
-    SearchMoviesAdmin
+    SearchAdmin
+  },
+  data(){
+    return{
+      placeholder:'search for a movie to modify'
+    }
   }
 }
 </script>

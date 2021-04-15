@@ -1,9 +1,9 @@
 <template>
 <div>
-    <AppBarAdmin/>
-  <v-card
+    <v-card
     class="mx-auto"
-    max-width="344"
+    max-width="500"
+    max-height="500"
     outlined
   >
    
@@ -58,19 +58,15 @@
   </div>
 </template>
 <script>
-import AppBarAdmin from '@/components/AppBarAdmin'
 
   export default {
-      components:{
-          AppBarAdmin
-      },
       data(){
         return{
             selectedItem: 0,
             items: [
                 { text: 'Watchlist', icon: 'mdi-view-list' },
                 { text: 'Profile Picture', icon: 'mdi-image' },
-                { text: 'Polls', icon: 'mdi-chart-box' },
+                { text: 'Polls & Lists', icon: 'mdi-chart-box' },
                 { text: 'Username', icon: 'mdi-human-male' },
                 { text: 'Password', icon: 'mdi-lock' },
             ],

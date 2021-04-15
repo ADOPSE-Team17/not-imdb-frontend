@@ -1,7 +1,9 @@
 <template>
   <div>
     <AppBarAdmin/>
+    <div class="pa-16">
     <ProfileEdit/>
+    </div>
   </div>
 </template>
 
